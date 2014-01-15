@@ -4,16 +4,16 @@
 //     Changes to this file will be lost if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace Sanscs.QuestionImport
+namespace Sanscs.Homework.QuestionImport
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
     using System.Text.RegularExpressions;
-    using Sanscs.Common.Helpers;
-    using Sanscs.Common.Log;
-    using Sanscs.Model.DTO;
+    using Sanscs.Homework.Common.Helpers;
+    using Sanscs.Homework.Common.Log;
+    using Sanscs.Homework.Model.DTO;
 
     public class QuestionResolver : IQuestionResolver<string, QuestionDTO>
 	{

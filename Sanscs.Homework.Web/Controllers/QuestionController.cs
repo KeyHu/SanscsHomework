@@ -4,9 +4,9 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using Sanscs.Service.Contracts;
+using Sanscs.Homework.Service.Contracts;
 
-namespace Sanscs.WebAPI.Controllers
+namespace Sanscs.Homework.WebAPI.Controllers
 {
     public class QuestionController : ApiController
     {

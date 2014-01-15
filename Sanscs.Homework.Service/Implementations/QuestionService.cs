@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Sanscs.Service.Contracts;
-using Sanscs.Model.DTO;
-using Sanscs.Model;
-using Sanscs.DAL.Contracts;
-using Sanscs.Repository;
-namespace Sanscs.Service.Implementations
+using Sanscs.Homework.Service.Contracts;
+using Sanscs.Homework.Model.DTO;
+using Sanscs.Homework.Model;
+using Sanscs.Homework.DAL.Contracts;
+using Sanscs.Homework.Repository;
+namespace Sanscs.Homework.Service.Implementations
 {
     public class QuestionService : IQuestionService
     {

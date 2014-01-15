@@ -1,7 +1,7 @@
-﻿using Sanscs.DAL.Contracts;
-using Sanscs.Model;
-using Sanscs.Repository;
-using Sanscs.Service.Contracts;
+﻿using Sanscs.Homework.DAL.Contracts;
+using Sanscs.Homework.Model;
+using Sanscs.Homework.Repository;
+using Sanscs.Homework.Service.Contracts;
 using System.Collections.Generic;
 using System.Linq;
 

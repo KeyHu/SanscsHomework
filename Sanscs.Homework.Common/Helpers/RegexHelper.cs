@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sanscs.Common.Helpers
+namespace Sanscs.Homework.Common.Helpers
 {
     public class RegexPool
     {

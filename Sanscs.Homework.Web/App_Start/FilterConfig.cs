@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace Sanscs.WebAPI
+namespace Sanscs.Homework.WebAPI
 {
     public class FilterConfig
     {

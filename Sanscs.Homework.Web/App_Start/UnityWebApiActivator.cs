@@ -1,9 +1,9 @@
 using System.Web.Http;
 using Microsoft.Practices.Unity.WebApi;
 
-[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(Sanscs.WebAPI.App_Start.UnityWebApiActivator), "Start")]
+[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(Sanscs.Homework.WebAPI.App_Start.UnityWebApiActivator), "Start")]
 
-namespace Sanscs.WebAPI.App_Start
+namespace Sanscs.Homework.WebAPI.App_Start
 {
     /// <summary>Provides the bootstrapping for integrating Unity with WebApi when it is hosted in ASP.NET</summary>
     public static class UnityWebApiActivator

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sanscs.Model.DTO
+namespace Sanscs.Homework.Model.DTO
 {
   public  class QuestionDTO
     {

@@ -1,7 +1,7 @@
-﻿using Sanscs.Homework.Model;
+﻿using Sanscs.Model;
 using System.Collections.Generic;
 
-namespace Sanscs.Homework.Service.Contracts
+namespace Sanscs.Service.Contracts
 {
     public interface ICoursService
     {

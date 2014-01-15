@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Sanscs.Model
+namespace Sanscs.Homework.Model
 {
     using System;
     using System.Data.Entity;

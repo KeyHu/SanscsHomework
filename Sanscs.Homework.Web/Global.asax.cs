@@ -7,9 +7,9 @@ using System.Web.Http.Dispatcher;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
-using Sanscs.WebAPI.App_Start;
+using Sanscs.Homework.WebAPI.App_Start;
 
-namespace Sanscs.WebAPI
+namespace Sanscs.Homework.WebAPI
 {
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
     // visit http://go.microsoft.com/?LinkId=9394801

@@ -7,10 +7,10 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
-using Sanscs.WebAPI.Infrastructure;
-using Sanscs.WebAPI.Models;
+using Sanscs.Homework.WebAPI.Infrastructure;
+using Sanscs.Homework.WebAPI.Models;
 
-namespace Sanscs.WebAPI.Controllers
+namespace Sanscs.Homework.WebAPI.Controllers
 {
     public class UploadingController : ApiController
     {

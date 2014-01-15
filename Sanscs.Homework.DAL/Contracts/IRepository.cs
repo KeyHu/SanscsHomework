@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace Sanscs.DAL.Contracts
+namespace Sanscs.Homework.DAL.Contracts
 {
     public interface IRepository<T> where T : class
     {

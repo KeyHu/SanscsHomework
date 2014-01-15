@@ -1,8 +1,8 @@
-﻿using Sanscs.DAL.Implementations;
-using Sanscs.DAL.Contracts;
-using Sanscs.Model;
+﻿using Sanscs.Homework.DAL.Implementations;
+using Sanscs.Homework.DAL.Contracts;
+using Sanscs.Homework.Model;
 
-namespace Sanscs.Repository
+namespace Sanscs.Homework.Repository
 {
     public class QuestionRepository : Repository<question>, IQuestionsRepository
     {

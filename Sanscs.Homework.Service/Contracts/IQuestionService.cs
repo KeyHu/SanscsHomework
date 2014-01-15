@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Sanscs.Model.DTO;
+using Sanscs.Homework.Model.DTO;
 
-namespace Sanscs.Service.Contracts
+namespace Sanscs.Homework.Service.Contracts
 {
     public interface IQuestionService
     {

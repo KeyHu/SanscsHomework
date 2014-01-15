@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http.Filters;
-namespace Sanscs.Common.Filters
+namespace Sanscs.Homework.Common.Filters
 {
     public class EnableCorsAttribute : ActionFilterAttribute
     {

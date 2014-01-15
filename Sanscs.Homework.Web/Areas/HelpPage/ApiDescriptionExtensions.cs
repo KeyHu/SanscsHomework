@@ -3,7 +3,7 @@ using System.Text;
 using System.Web;
 using System.Web.Http.Description;
 
-namespace Sanscs.WebAPI.Areas.HelpPage
+namespace Sanscs.Homework.WebAPI.Areas.HelpPage
 {
     public static class ApiDescriptionExtensions
     {

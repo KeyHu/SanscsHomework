@@ -1,7 +1,7 @@
-﻿using Sanscs.Homework.Model;
+﻿using Sanscs.Model;
 using System;
 
-namespace Sanscs.Homework.DAL.Contracts
+namespace Sanscs.DAL.Contracts
 {
     public interface IDatabaseFactory : IDisposable
     {

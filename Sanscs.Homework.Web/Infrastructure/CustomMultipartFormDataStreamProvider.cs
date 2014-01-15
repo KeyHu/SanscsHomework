@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Net.Http;
 
-namespace Sanscs.WebAPI.Infrastructure
+namespace Sanscs.Homework.WebAPI.Infrastructure
 {
     public class CustomMultipartFormDataStreamProvider : MultipartFormDataStreamProvider
     {

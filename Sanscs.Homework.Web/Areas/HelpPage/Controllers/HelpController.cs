@@ -1,9 +1,9 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using Sanscs.WebAPI.Areas.HelpPage.Models;
+using Sanscs.Homework.WebAPI.Areas.HelpPage.Models;
 
-namespace Sanscs.WebAPI.Areas.HelpPage.Controllers
+namespace Sanscs.Homework.WebAPI.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

@@ -1,10 +1,10 @@
 using System;
 using Microsoft.Practices.Unity;
 using Microsoft.Practices.Unity.Configuration;
-using Sanscs.DAL.Contracts;
-using Sanscs.DAL.Implementations;
+using Sanscs.Homework.DAL.Contracts;
+using Sanscs.Homework.DAL.Implementations;
 
-namespace Sanscs.WebAPI.App_Start
+namespace Sanscs.Homework.WebAPI.App_Start
 {
     /// <summary>
     /// Specifies the Unity configuration for the main container.

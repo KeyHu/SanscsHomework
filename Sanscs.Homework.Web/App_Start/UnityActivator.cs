@@ -4,8 +4,8 @@ using System.Net.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Dispatcher;
 using Microsoft.Practices.Unity;
-using Sanscs.Service;
-namespace Sanscs.WebAPI.App_Start
+using Sanscs.Homework.Service;
+namespace Sanscs.Homework.WebAPI.App_Start
 {
     public class UnityActivator : IHttpControllerActivator
     {

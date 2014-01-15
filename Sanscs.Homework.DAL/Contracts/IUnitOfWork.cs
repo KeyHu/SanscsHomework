@@ -1,5 +1,5 @@
 ﻿
-namespace Sanscs.DAL.Contracts
+namespace Sanscs.Homework.DAL.Contracts
 {
     public interface IUnitOfWork
     {

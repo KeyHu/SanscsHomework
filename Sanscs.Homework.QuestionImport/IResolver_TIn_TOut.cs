@@ -4,7 +4,7 @@
 //     Changes to this file will be lost if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace SanScs.Homework.Business.QuestionImport
+namespace Sanscs.Homework.Homework.Business.QuestionImport
 {
 	using System;
 	using System.Collections.Generic;

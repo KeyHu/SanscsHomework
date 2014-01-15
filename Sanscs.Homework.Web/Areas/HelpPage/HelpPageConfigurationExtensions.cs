@@ -7,9 +7,9 @@ using System.Linq;
 using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Description;
-using Sanscs.WebAPI.Areas.HelpPage.Models;
+using Sanscs.Homework.WebAPI.Areas.HelpPage.Models;
 
-namespace Sanscs.WebAPI.Areas.HelpPage
+namespace Sanscs.Homework.WebAPI.Areas.HelpPage
 {
     public static class HelpPageConfigurationExtensions
     {

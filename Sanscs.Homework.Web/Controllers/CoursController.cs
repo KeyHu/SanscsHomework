@@ -4,12 +4,12 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using Sanscs.Service.Contracts;
-using Sanscs.Model;
+using Sanscs.Homework.Service.Contracts;
+using Sanscs.Homework.Model;
 using Newtonsoft.Json;
-using Sanscs.Common.Filters;
-using Sanscs.Common.Log;
-namespace Sanscs.WebAPI.Controllers
+using Sanscs.Homework.Common.Filters;
+using Sanscs.Homework.Common.Log;
+namespace Sanscs.Homework.WebAPI.Controllers
 {
     public class CoursController : ApiController
     {

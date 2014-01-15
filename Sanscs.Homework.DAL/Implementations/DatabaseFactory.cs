@@ -1,7 +1,7 @@
-﻿using Sanscs.DAL.Contracts;
-using Sanscs.Model;
+﻿using Sanscs.Homework.DAL.Contracts;
+using Sanscs.Homework.Model;
 
-namespace Sanscs.DAL.Implementations
+namespace Sanscs.Homework.DAL.Implementations
 {
     public class DatabaseFactory : Disposable, IDatabaseFactory
     {

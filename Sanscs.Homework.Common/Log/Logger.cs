@@ -16,7 +16,7 @@ using Microsoft.Practices.EnterpriseLibrary.Logging.Formatters;
 using Microsoft.Practices.EnterpriseLibrary.Logging.TraceListeners;
 using System.Diagnostics;
 using System.IO;
-namespace Sanscs.Common.Log
+namespace Sanscs.Homework.Common.Log
 {
     public class Logger
     {

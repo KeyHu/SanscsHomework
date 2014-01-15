@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Sanscs.DAL.Implementations
+namespace Sanscs.Homework.DAL.Implementations
 {
     public class Disposable : IDisposable
     {

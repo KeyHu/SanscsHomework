@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web.Http;
 using System.Web.Mvc;
 
-namespace Sanscs.WebAPI
+namespace Sanscs.Homework.WebAPI
 {
     public static class WebApiConfig
     {
