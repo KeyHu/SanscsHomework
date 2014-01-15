@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1B35CC50-D2A4-433D-8FF0-137F91578A78}</ProjectGuid>
+    <ProjectGuid>{803C3437-31BC-43A2-B7AC-1C8B12B8CF1E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>QuestionImport</RootNamespace>
-    <AssemblyName>QuestionImport</AssemblyName>
+    <RootNamespace>Sanscs.DAL</RootNamespace>
+    <AssemblyName>Sanscs.DAL</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,8 +30,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -39,38 +46,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Implementations\DBOutput.cs" />
-    <Compile Include="Implementations\Resolver\GapMatchResolver.cs" />
-    <Compile Include="Implementations\Validator\GapMatchValidator.cs" />
-    <Compile Include="Contracts\Resolver\IDocumentResolver.cs" />
-    <Compile Include="Contracts\Validator\IDocumentValidator.cs" />
-    <Compile Include="Contracts\IOutput.cs" />
-    <Compile Include="Contracts\Resolver\IQuestionResolver.cs" />
-    <Compile Include="Contracts\Validator\IQuestionValidator.cs" />
-    <Compile Include="Contracts\Resolver\IResolver.cs" />
-    <Compile Include="Contracts\Validator\IValidator.cs" />
+    <Compile Include="Contracts\IDatabaseFactory.cs" />
+    <Compile Include="Contracts\IRepository.cs" />
+    <Compile Include="Contracts\IUnitOfWork.cs" />
+    <Compile Include="Implementations\DatabaseFactory.cs" />
+    <Compile Include="Implementations\Disposable.cs" />
+    <Compile Include="Implementations\Repository.cs" />
+    <Compile Include="Implementations\UnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Implementations\Resolver\QuestionResolver.cs" />
-    <Compile Include="Implementations\QuestionResolverBase.cs" />
-    <Compile Include="Implementations\Resolver\SingleChoiceResolver.cs" />
-    <Compile Include="Implementations\Validator\SingleChoiceValidator.cs" />
-    <Compile Include="Implementations\Resolver\TextEntryResolver.cs" />
-    <Compile Include="Implementations\Validator\TextEntryValidator.cs" />
-    <Compile Include="ValidationMessage.cs" />
-    <Compile Include="Implementations\Resolver\WordResolver.cs" />
-    <Compile Include="Implementations\Validator\WordValidator.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sanscs.Common\Sanscs.Common.csproj">
-      <Project>{b0d77b60-0f85-4612-b69c-b450f24fdf8b}</Project>
-      <Name>Sanscs.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Sanscs.Model\Sanscs.Model.csproj">
+    <None Include="App.Config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sanscs.Model\Sanscs.Homework.Model.csproj">
       <Project>{9415e91a-5874-47b9-b5d5-8573eed404ed}</Project>
-      <Name>Sanscs.Model</Name>
+      <Name>Sanscs.Homework.Model</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
