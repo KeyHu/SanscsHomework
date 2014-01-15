@@ -61,11 +61,11 @@
     <Compile Include="Implementations\Validator\WordValidator.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sanscs.Common\Sanscs.Homework.Common.csproj">
+    <ProjectReference Include="..\Sanscs.Homework.Common\Sanscs.Homework.Common.csproj">
       <Project>{b0d77b60-0f85-4612-b69c-b450f24fdf8b}</Project>
       <Name>Sanscs.Homework.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Sanscs.Model\Sanscs.Homework.Model.csproj">
+    <ProjectReference Include="..\Sanscs.Homework.Model\Sanscs.Homework.Model.csproj">
       <Project>{9415e91a-5874-47b9-b5d5-8573eed404ed}</Project>
       <Name>Sanscs.Homework.Model</Name>
     </ProjectReference>

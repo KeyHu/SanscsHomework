@@ -63,7 +63,7 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sanscs.Model\Sanscs.Homework.Model.csproj">
+    <ProjectReference Include="..\Sanscs.Homework.Model\Sanscs.Homework.Model.csproj">
       <Project>{9415e91a-5874-47b9-b5d5-8573eed404ed}</Project>
       <Name>Sanscs.Homework.Model</Name>
     </ProjectReference>
